@@ -3,7 +3,7 @@ import csv
 from users_functions import * 
 from users_db import * 
 
-def user_main():
+def user_main(username):
     users = 'users_hashed.csv'
     while True : 
         input = display_menu()
